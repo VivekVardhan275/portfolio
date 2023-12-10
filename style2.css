@@ -1,7 +1,15 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+@import 'utilities.css';
 
+:root {
+    --primary: rgb(29, 221, 189);
+    --bgDark: rgb(12, 12, 12);
+    --white: rgb(250, 250, 250);
+    --secondary: rgb(0, 59, 50);
+    --bgLight: rgb(190, 181, 181);
+}
 ul {
     color: white;
     margin-right: 2rem;
@@ -19,7 +27,6 @@ header {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-
 .left {
     color: white;
     margin: 0;
@@ -37,17 +44,6 @@ header {
     margin-right: -3.5rem;
     margin-top: 9px;
 }
-
-@import 'utilities.css';
-
-:root {
-    --primary: rgb(29, 221, 189);
-    --bgDark: rgb(12, 12, 12);
-    --white: rgb(250, 250, 250);
-    --secondary: rgb(0, 59, 50);
-    --bgLight: rgb(190, 181, 181);
-}
-
 .btn {
     background-color: rgb(29, 221, 189);
     margin-right: 15rem;
@@ -74,7 +70,6 @@ header {
     flex-wrap: nowrap;
 
 }
-
 .pic {
     width: 40vw;
     /* height: 100vh; */
@@ -84,7 +79,6 @@ header {
     align-items: center;
     flex-wrap: nowrap;
 }
-
 .conright {
     display: flex;
     justify-content: flex-start;
@@ -94,60 +88,51 @@ header {
     height: 100vh;
     flex-wrap: nowrap;
 }
-
-.photo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-    /* width: 30vw;
-    height: 50vh; */
-}
-
-#vivek {
-    border-radius: 70px;
-    width: 0vw;
-    height: 0vh;
-    animation: identifier 1s ease-in-out;
-
-}
-
 .content {
     /* border: 2px solid green; */
     width: 50vw;
     height: 50vh;
 }
-
-h1{
+h1 {
     margin: 0;
     padding: 0;
-    animation: identifier1 2s ease-in-out ;
+    animation: identifier1 1s ease-in-out ;
 }
 p{
-    animation: identifier2 4s ease-in-out;
-
+    animation: identifier2 3s ease-in-out;
+}
+span{
+color: var(--primary);
+}
+#img2{
+    width: 0vw;
+    height: 0vh;
+    border-radius: 40px;
+    animation: identifier 1s ease-in-out;
 }
 @keyframes identifier {
-    from {
-        height: 0vh;
+    from{
         width: 0vw;
-    }
-    to{
+        height: 0vh; 
+       }
+       to{
         width: 29vw;
         height: 60vh;
-    }
+       }
 }
-#vivek{
-width: 29vw;
-height: 60vh;
+#img2{
+    width: 29vw;
+    height: 60vh;
+
 }
 @keyframes identifier1 {
     from{
         opacity: 0%;
     }
-    to{
+    to {
         opacity: 1000%;
     }
+    
 }
 @keyframes identifier2 {
     from{
@@ -156,4 +141,5 @@ height: 60vh;
     to{
         opacity: 1000%;
     }
+    
 }

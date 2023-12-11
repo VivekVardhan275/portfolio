@@ -143,3 +143,112 @@ color: var(--primary);
     }
     
 }
+footer{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    /* background-color: white; */
+    /* border: 5px solid red; */
+}
+.box1{
+    background-color: var(--primary);
+    color: var(--bgDark);
+    /* border: 2px solid rgb(212, 255, 0); */
+    width: 25vw;
+    height: 50vh;
+    border-radius: 60px;
+    /* color: var(--bgDark); */
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    color: var(--secondary);
+}
+.img3{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+#webimg{
+    /* border: 5px solid black; */
+    margin-top: 1rem;
+    border-radius: 100%;
+}
+#txt{
+
+    list-style: none;
+    text-align: center;
+    color: var(--white);
+    width: 20vw;
+    height: fit-content;
+}
+li{
+    /* list-style-type: none; */
+    /* text-align: center; */
+    color: var(--white);
+    width: 20vw;
+    height: fit-content;
+}.same{
+    list-style: none;
+    text-align: center;
+    color: var(--white);
+    width: 20vw;
+    height: fit-content; 
+}
+.box2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--primary);
+    /* border: 2px solid rgb(51, 255, 0); */
+    width: 25vw;
+    height: 50vh;
+    color: var(--bgDark);
+    border-radius: 60px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    color: var(--secondary);
+}
+.box3{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--primary);
+    /* border: 2px solid rgb(0, 0, 255); */
+    width: 25vw;
+    height: 50vh;
+    color: var(--bgDark);
+    border-radius: 60px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    color: var(--secondary);
+}
+.box1:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.box2:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.box3:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}

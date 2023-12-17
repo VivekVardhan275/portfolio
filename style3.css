@@ -1,0 +1,121 @@
+html{
+    background-color: black;
+    color: white;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    color: white;
+    margin-right: 2rem;
+    width: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+a {
+    margin-left: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+@import 'utilities.css';
+
+:root {
+    --primary: rgb(29, 221, 189);
+    --bgDark: rgb(12, 12, 12);
+    --white: rgb(250, 250, 250);
+    --secondary: rgb(0, 59, 50);
+    --bgLight: rgb(190, 181, 181);
+}
+.btn {
+    background-color: rgb(29, 221, 189);
+    margin-right: 15rem;
+    letter-spacing: 2px;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    color: var(--secondary);
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.logo {
+    margin-left: 15rem;
+    margin-right: -3.5rem;
+    margin-top: 9px;
+    border-radius: 100rem;
+}
+.left {
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    /* width: auto; */
+    flex-wrap: nowrap;
+
+}
+#middle{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    /* transition:cubic-bezier(1, 0, 0, 1); */
+
+}
+#line{
+    width: 7vw;
+    color: var(--primary);
+    /* height: 1px; */
+    
+}
+.container1{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    margin-top: 1rem;
+    width: 50vw;
+    height: fit-content;
+}
+.logo9{
+    display: flex;
+    justify-content: space;
+    width: 50vw;
+    height: fit-content;
+    margin-left: 11rem;
+
+}
+#git{
+    width: 7vw;
+    height: 14vh;
+    border-radius: 50rem;
+}
+.logo8{
+    display: flex;
+    justify-content: space;
+    width: 50vw;
+    height: fit-content;
+    margin-left: 18rem;
+
+}
+#git{
+    width: 7vw;
+    height: 14vh;
+    border-radius: 50rem;
+}
